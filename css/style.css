@@ -482,7 +482,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container .background {
-  min-height: 300px;
+  min-height: 499px;
   background: url(../img/logo1.png) center top no-repeat;
   margin-bottom: 10px;
 }
@@ -634,7 +634,72 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
   line-height: 24px;
 }
+/* Mission Section
+--------------------------------*/
+#mission {
+  background: #fff;
+  background-size: cover;
+  padding: 80px 0 60px 0;
+}
 
+#mission .box {
+  padding: 50px 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  border: 1px solid #e6e6e6;
+  height: 200px;
+  position: relative;
+  background: #fafafa;
+}
+
+#mission .icon {
+  position: absolute;
+  top: -36px;
+  left: calc(50% - 36px);
+  transition: 0.2s;
+  border-radius: 50%;
+  display: inline-block;
+  border: 6px solid #fff;
+}
+
+#mission .icon a {
+  display: inline-block;
+  background: #2b2968;
+  border: 2px solid #2b2968;
+  padding: 16px;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+#mission .icon i {
+  color: #fff;
+  font-size: 24px;
+}
+
+#mission .box:hover .icon i {
+  color: #2b2968;
+}
+
+#mission .box:hover .icon a {
+  color: #2b2968;
+  background: #fff;
+}
+
+#mission .title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+#mission .title a {
+  color: #111;
+}
+
+#mission .description {
+  font-size: 14px;
+  line-height: 24px;
+}
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
@@ -1145,4 +1210,39 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .img_news{
   padding-left: 17px;
+}
+/* ****************Text ******************************** */
+.containerr {
+  /* display: flex; */
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.typewriter {
+  font-family: sans-serif;
+  color: #2b2968;
+  padding-left: 30px;
+  /* display: block; */
+}
+.typewriter-text {
+  padding-right: 10px;
+  color: #2b2968;
+  border-right: solid #2b2968 7px;
+  text-transform: uppercase;
+  animation: cursor 1s ease-in-out infinite;
+  font-weight: bold;
+}
+@keyframes cursor {
+  from { border-color: #2b2968; }
+  to { border-color: transparent; }
+}
+
+@media (max-width: 767.98px) {
+  .typewriter { font-size: 35px; }
+}
+@media (min-width: 768px) {
+  .typewriter { font-size: 60px; }
+}
+#about .about-container p {
+  line-height: 66px;
 }

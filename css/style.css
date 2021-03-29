@@ -33,6 +33,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
+  
 
 }
 
@@ -462,7 +463,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 .section-header .section-title {
   font-size: 32px;
-  color: #111;
+  color: #03b2ab;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
@@ -472,7 +473,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-header .section-description {
   text-align: center;
   padding-bottom: 40px;
-  color: #999;
+  color: #2b2968;
+  font-size: 50px;
 }
 
 /* About Us Section
@@ -1237,7 +1239,7 @@ right:1%;
   /* text-transform: uppercase; */
   animation: cursor 1s ease-in-out infinite;
   font-weight: bold;
-  font-size: 72px;
+  font-size: 44px;
   background: -webkit-linear-gradient(left, #2B2968, #03B2AB );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1245,7 +1247,7 @@ right:1%;
 }
 @keyframes cursor {
   from { border-color: #2b2968; }
-  to { border-color: transparent; }
+  to { border-color: #03B2AB; }
 }
 
 @media (max-width: 767.98px) {
@@ -1256,4 +1258,7 @@ right:1%;
 }
 #about .about-container p {
   line-height: 66px;
+}
+.section-title h3{
+  background : #2B2968
 }

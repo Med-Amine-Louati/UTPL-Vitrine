@@ -21,6 +21,7 @@ a:hover, a:active, a:focus {
 
   outline: none;
   text-decoration: none;
+  color:white;
 }
 
 p {
@@ -1970,6 +1971,7 @@ a {
 a, a:hover, a:focus, a:before, a:after {
   outline: none;
   text-decoration: none;
+
 }
 a:hover, a:focus {
   color: #00d0f9;
@@ -13000,3 +13002,47 @@ body.rtl #pagetitle .page-title-search .search-submit {
 
 /* *******************IMAGE*************** */
 
+.btn_men a {
+  color : white;
+ 
+}
+.btn_men {
+  padding: inherit;
+  left: 166%;
+}
+
+@media only screen and (max-width: 600px) {
+.btn_men{
+  left : auto;
+  
+}
+}
+
+
+@media only screen and (min-width: 600px) {
+  .btn_men{
+    left : auto;
+    
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .btn_men{
+    left : auto;
+    
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .btn_men{
+    left : auto;
+    
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .btn_men{
+    left : auto;
+    
+  }
+}

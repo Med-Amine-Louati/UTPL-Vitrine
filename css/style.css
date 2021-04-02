@@ -7123,13 +7123,13 @@ embed, iframe, object {
   -webkit-animation: ct-rotate 2s infinite linear;
   animation: ct-rotate 2s infinite linear;
 }
-.ct-spinner9 .dot1, .ct-spinner9 .dot2 {
+/* .ct-spinner9 .dot1, .ct-spinner9 .dot2 {
   width: 60%;
   height: 60%;
   display: inline-block;
   position: absolute;
   top: 0;
-  background-color: ;
+
   background-image: -webkit-gradient(linear, left top, right top, from(), to());
   background-image: -webkit-linear-gradient(left, , );
   background-image: -moz-linear-gradient(left, , );
@@ -7145,7 +7145,7 @@ embed, iframe, object {
   border-radius: 100%;
   -webkit-animation: ct-bounce 2s infinite ease-in-out;
   animation: ct-bounce 2s infinite ease-in-out;
-}
+} */
 .ct-spinner9 .dot2 {
   top: auto;
   bottom: 0;
@@ -12127,7 +12127,7 @@ body.woocommerce-cart .woocommerce-cart-form tbody .product-name a, body.woocomm
 }
 .btn_men {
   padding: inherit;
-  left: 166%;
+  right: -500px;
 }
 
 @media only screen and (max-width: 600px) {
